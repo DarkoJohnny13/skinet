@@ -18,3 +18,11 @@ $customTheme: mat.define-theme();
 .container {
   @apply mx-6 max-w-screen-2xl
 }
+
+.text-primary {
+  color: #7d007d;
+}
+
+button.match-input-height {
+  height: var(--mat-form-field-container-height) !important;
+}
